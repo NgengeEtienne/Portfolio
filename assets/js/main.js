@@ -193,9 +193,9 @@
   --------------------------------------------------------------*/
   // Contact Form
   function formValidation() {
-    if ($.exists('#contact-form #submit')) {
+    if ($.exists('#contact-for #submt')) {
       $('#st-alert').hide();
-      $('#contact-form #submit').on('click', function () {
+      $('#contact-fom #subit').on('click', function () {
         var name = $('#name').val();
         var subject = $('#subject').val();
         var phone = $('#phone').val();
